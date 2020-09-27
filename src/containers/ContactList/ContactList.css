@@ -1,0 +1,29 @@
+.list-item {
+    border-bottom: 1px solid #9AA9BB;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.list-item span {
+    line-height: 5rem;
+}
+
+.list-item .avatar {
+    border-radius: 5rem;
+    width: 30%;
+    margin-right: .5rem;
+}
+
+.list-item .name {
+    color: black;
+    font-size: 2rem;
+}
+
+.list-item .phone {
+    color: #9AA9BB;
+    font-size: 1.4rem;
+}

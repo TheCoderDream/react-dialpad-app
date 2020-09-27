@@ -1,0 +1,23 @@
+.person {
+
+}
+.person span {
+    line-height: 5rem;
+}
+
+.person .avatar {
+    border-radius: 5rem;
+    width: 30%;
+    margin-right: .5rem;
+}
+
+.person .name {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.phone {
+    color: #9AA9BB;
+    font-size: 1.4rem;
+}
+
