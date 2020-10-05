@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState, useEffect } from 'react';
 import { connect } from 'react-redux';
 import {contactFilterByPhone} from "../../utilities/contactFilterByPhone";
 import Contact from "../../components/Contact/Contact";
@@ -18,7 +18,10 @@ const ContactList = (
         contacts
     }
 ) => {
-    console.log(contacts);
+    const [avatars, setAvatars] = useState(null);
+    useEffect(() => {
+      Promise
+    });
     return (
         <div className={'list-container'}>
                 {contacts.map(contact => {
