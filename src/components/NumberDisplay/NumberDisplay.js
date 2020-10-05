@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {removeLastCharDialValue} from '../../actions/dialpad';
 import './NumberDisplay.css';
+import deleteSvg from '../../assets/icons/delete.svg';
 
 
 
@@ -21,7 +22,7 @@ const NumberDisplay = (
                    e.preventDefault();
                    removeLastCharDialValue();
                }}>
-                <img  alt=""/>
+                <img src={deleteSvg}  alt=""/>
             </a>);
     }
 
